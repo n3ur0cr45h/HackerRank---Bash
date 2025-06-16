@@ -24,3 +24,29 @@
 
 ----
 
+1. Let's Echo
+
+   echo "HELLO"
+
+2. Looping and Skipping
+
+   for i in {1..99..2}
+   do
+     echo $i
+   done
+
+3. A Personalized Echo
+
+   #!/bin/bash
+
+   read -p "Name?" name
+
+   echo "Welcome $name"
+
+4. Looping with Numbers
+
+   for i in {1..50}
+   do
+     echo $i
+   done
+
