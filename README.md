@@ -24,29 +24,27 @@
 
 ----
 
-1. Let's Echo
+<b>1. Let's Echo</b>
 
-   echo "HELLO"
+   <code>echo "HELLO"</code>
 
-2. Looping and Skipping
+<b>2. Looping and Skipping</b>
 
-   for i in {1..99..2}
+   <code>for i in {1..99..2}
    do
      echo $i
-   done
+   done</code>
 
-3. A Personalized Echo
+<b>3. A Personalized Echo</b>
 
-   #!/bin/bash
-
+   <code>#!/bin/bash
    read -p "Name?" name
+   echo "Welcome $name"</code>
 
-   echo "Welcome $name"
+<b>4. Looping with Numbers</b>
 
-4. Looping with Numbers
-
-   for i in {1..50}
+   <code>for i in {1..50}
    do
      echo $i
-   done
+   done</code>
 
