@@ -48,3 +48,13 @@
      echo $i
    done</code>
 
+<b>5. The World of Numbers</b>
+
+<code>#!/bin/bash
+read a
+read b
+echo $((a + b))
+echo $((a - b))
+echo $((a * b))
+echo $((a / b))</code>
+
